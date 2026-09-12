@@ -1,0 +1,31 @@
+# Pinned snapshot of a known-working environment.
+#
+# pyproject.toml is the source of truth for which packages this project needs;
+# this file records the exact versions that were verified to work, so the
+# environment can be reproduced after a Python upgrade or on another machine.
+#
+# Captured 2026-09-11 on CPython 3.11.9 (Windows).
+#
+#   python -m pip install -r requirements.txt
+#   python -m pip install -e .
+
+# Runtime
+pandas==3.0.5
+matplotlib==3.11.1
+
+# Transitive dependencies of the above, pinned for reproducibility
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.64.0
+kiwisolver==1.5.1
+numpy==2.4.6
+packaging==26.3
+pillow==12.3.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.3
+
+# Dev / test (pyproject.toml: optional-dependencies.dev)
+pytest==9.1.1
+ruff==0.16.6

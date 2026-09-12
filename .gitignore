@@ -1,0 +1,22 @@
+# The CHCD release is ~30 MB and is reproducibly fetched, not vendored.
+# Run: python scripts/fetch_data.py
+data/raw/
+data/processed/
+
+# Working notes, not repository content.
+PROJECT_BRIEF.md
+PLAN.md
+scratch/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+.DS_Store
+Thumbs.db
