@@ -11,6 +11,8 @@ over time, and which missions record more carefully than others.
 All figures below were computed from the release itself, not copied from its
 documentation. Every count is pinned in the loader and re-checked by the test suite.
 
+**Status:** the data layer is complete and tested; the analysis is paused.
+
 ## The data
 
 [CHCD v3.0.1](https://github.com/chcdatabase/data), published by the Center for
